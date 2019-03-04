@@ -18,7 +18,7 @@ namespace Stock_purchase
             purchases.Add(new Dictionary<string, double>() { { "CAT", 580.98 } });
             purchases.Add(new Dictionary<string, double>() { { "AAPL", 406.34 } });
             purchases.Add(new Dictionary<string, double>() { { "NFLX", 406.34 } });
-                        purchases.Add(new Dictionary<string, double>() { { "GM", 300.21 } });
+            purchases.Add(new Dictionary<string, double>() { { "GM", 300.21 } });
 
 
             Dictionary<string, double> stockReport = new Dictionary<string, double>();
@@ -28,7 +28,6 @@ namespace Stock_purchase
                 {
                     foreach (KeyValuePair<string, double> stock in purchase)
                     {
-                        string key = $"{stock.Key}";
                         string fullName = stocks[stock.Key];
 
                         if(stockReport.ContainsKey(fullName)) {
@@ -42,7 +41,6 @@ namespace Stock_purchase
 
                     }
                 }
-
             }
                 foreach (KeyValuePair<string, double> stock in stockReport)
 			{
