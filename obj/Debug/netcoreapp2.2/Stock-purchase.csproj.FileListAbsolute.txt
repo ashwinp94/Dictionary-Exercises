@@ -1,0 +1,11 @@
+C:\Users\ashp9\backend\workspace\Stock-purchase\bin\Debug\netcoreapp2.2\Stock-purchase.deps.json
+C:\Users\ashp9\backend\workspace\Stock-purchase\bin\Debug\netcoreapp2.2\Stock-purchase.runtimeconfig.json
+C:\Users\ashp9\backend\workspace\Stock-purchase\bin\Debug\netcoreapp2.2\Stock-purchase.runtimeconfig.dev.json
+C:\Users\ashp9\backend\workspace\Stock-purchase\bin\Debug\netcoreapp2.2\Stock-purchase.dll
+C:\Users\ashp9\backend\workspace\Stock-purchase\bin\Debug\netcoreapp2.2\Stock-purchase.pdb
+C:\Users\ashp9\backend\workspace\Stock-purchase\obj\Debug\netcoreapp2.2\Stock-purchase.csprojAssemblyReference.cache
+C:\Users\ashp9\backend\workspace\Stock-purchase\obj\Debug\netcoreapp2.2\Stock-purchase.csproj.CoreCompileInputs.cache
+C:\Users\ashp9\backend\workspace\Stock-purchase\obj\Debug\netcoreapp2.2\Stock-purchase.AssemblyInfoInputs.cache
+C:\Users\ashp9\backend\workspace\Stock-purchase\obj\Debug\netcoreapp2.2\Stock-purchase.AssemblyInfo.cs
+C:\Users\ashp9\backend\workspace\Stock-purchase\obj\Debug\netcoreapp2.2\Stock-purchase.dll
+C:\Users\ashp9\backend\workspace\Stock-purchase\obj\Debug\netcoreapp2.2\Stock-purchase.pdb
