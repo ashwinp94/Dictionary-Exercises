@@ -57,21 +57,21 @@ namespace Stock_purchase
             { "Mercury", "Venus", "Earth", "Mars", "Jupiter", "Saturn", "Uranus", "Neptune" };
 
             List<Dictionary<string, string>> probes = new List<Dictionary<string, string>>();
-            probes.Add(new Dictionary<string, string>() { { "Mariner 10", "Mercury" } });
-            probes.Add(new Dictionary<string, string>() { { "Messenger", "Mercury" } });
-            probes.Add(new Dictionary<string, string>() { { "Mariner 2", "Venus" } });
-            probes.Add(new Dictionary<string, string>() { { "Venera 4", "Venus" } });
-            probes.Add(new Dictionary<string, string>() { { "Venus Express", "Venus" } });
-            probes.Add(new Dictionary<string, string>() { { "We live here", "Earth" } });
-            probes.Add(new Dictionary<string, string>() { { "Mariner 9", "Mars" } });
-            probes.Add(new Dictionary<string, string>() { { "Opportunity", "Mars" } });
-            probes.Add(new Dictionary<string, string>() { { "Curiosity", "Mars" } });
-            probes.Add(new Dictionary<string, string>() { { "Pioneer 11", "Jupiter" } });
-            probes.Add(new Dictionary<string, string>() { { "Pioneer 12", "Jupiter" } });
-            probes.Add(new Dictionary<string, string>() { { "Voyager 1", "Saturn" } });
-            probes.Add(new Dictionary<string, string>() { { "Cassini", "Saturn" } });
-            probes.Add(new Dictionary<string, string>() { { "Voyager Two", "Uranus" } });
-            probes.Add(new Dictionary<string, string>() { { "Voyager 2", "Neptune" } });
+            probes.Add(new Dictionary<string, string>() { { "Mercury", "Mariner 10" } });
+            probes.Add(new Dictionary<string, string>() { { "Mercury", "Messenger" } });
+            probes.Add(new Dictionary<string, string>() { { "Venus", "Mariner 2" } });
+            probes.Add(new Dictionary<string, string>() { { "Venus", "Venera 4" } });
+            probes.Add(new Dictionary<string, string>() { { "Venus", "Venus Express" } });
+            probes.Add(new Dictionary<string, string>() { { "Earth", "We live here" } });
+            probes.Add(new Dictionary<string, string>() { { "Mars", "Mariner 9" } });
+            probes.Add(new Dictionary<string, string>() { { "Mars", "Opportunity" } });
+            probes.Add(new Dictionary<string, string>() { { "Mars", "Curiosity" } });
+            probes.Add(new Dictionary<string, string>() { { "Jupiter", "Pioneer 11" } });
+            probes.Add(new Dictionary<string, string>() { { "Jupiter", "Pioneer 12" } });
+            probes.Add(new Dictionary<string, string>() { { "Saturn", "Voyager 1" } });
+            probes.Add(new Dictionary<string, string>() { { "Saturn", "Cassini" } });
+            probes.Add(new Dictionary<string, string>() { { "Uranus", "Voyager Two" } });
+            probes.Add(new Dictionary<string, string>() { { "Neptune", "Voyager 2" } });
 
             foreach (string planets in planetList) // iterate planets
             {
@@ -82,8 +82,8 @@ namespace Stock_purchase
                     foreach (KeyValuePair<string, string> spaceCraft in probe)
                     {
 
-                        string planet = spaceCraft.Value;
-                        string probeName = spaceCraft.Key;
+                        string planet = spaceCraft.Key;
+                        string probeName = spaceCraft.Value;
 
                         if ((! matchingProbes.Contains(probeName)) && planets == planet)
                         {
