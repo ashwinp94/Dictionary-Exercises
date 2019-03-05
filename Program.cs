@@ -93,14 +93,10 @@ namespace Stock_purchase
                     }
                 }
 
-
                 string probeList = String.Join(", ", matchingProbes);
                 Console.WriteLine($"{planets}: {probeList}");
 
             }
-
-
-
         }
     }
 }
